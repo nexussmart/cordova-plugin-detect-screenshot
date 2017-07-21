@@ -1,22 +1,22 @@
 {
-  "name": "cordova-plugin-detect-screenshot",
-  "version": "1.0.7",
-  "description": "Detects screenshots on iOS",
-  "cordova": {
-    "id": "com.lukemiles.screenshot",
-    "platforms": [
-      "ios"
-    ]
+  "name": "com.lukemiles.screenshot",
+  "version": "1.0.0",
+  "description": "Detects screenshots on Cordova for iOS. The plugin will only work on devices with iOS >= 7, however feel free to include this plugin in projects with a lower target than iOS 7. The plugin checks the iOS version before listening for events, so it won't break anything.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/restocks/cordova-plugin-detect-screenshot"
+    "url": "git+https://github.com/nexussmart/cordova-plugin-detect-screenshot.git"
   },
   "keywords": [
-    "cordova",
-    "ecosystem:cordova",
-    "cordova-ios"
+    "[]"
   ],
-  "author": "Restocks",
-  "license": "MIT"
+  "author": "Volpy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nexussmart/cordova-plugin-detect-screenshot/issues"
+  },
+  "homepage": "https://github.com/nexussmart/cordova-plugin-detect-screenshot#readme"
 }
